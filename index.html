@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redactr</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src= "script.js" defer></script>
+</head> 
+
+<body>
+  <main class="container">
+    <h1 class="form-heading">Welcome to Redact App! </h1>
+    <form action="" style="padding-top: 0px;" class="form">
+      <div class="form_group">
+        <label for="text" class="form_group-label1">Type or paste your text here</label>
+        <textarea name="text" id="text" cols="20" rows="8" placeholder="Place text here ..." required></textarea>
+
+      </div>
+      <div class="form_group">
+        <label for="words-to-scamble" class="form_group-label">Word(s) to redact</label>
+        <input type="text" name="words-to-scamble" id="words-to-scamble" class="words-to-scamble"
+          placeholder="Word(s) to scramble" required />
+      </div>
+      <div class="form_group">
+        <label for="scramble-replacement" class="form_group-label">
+          Replacement (Optional)</label>
+        <input type="text" name="scramble-replacement" id="scramble-replacement" class="scramble-replacement"
+          placeholder="Scramble replacement" />
+      </div>
+      <div class="form_group">
+        <button type="submit" class="btn-submit" id="btn-submit">Redactr</button>
+      </div>
+    </form>
+    <div id="output-container">
+      <h4>Output:</h4>
+      <div>
+        <p id="output"></p>
+      </div>
+      <div id="details"></div>
+    </div>
+  </main>
+</body>
+</html>
